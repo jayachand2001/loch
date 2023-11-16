@@ -1,0 +1,28 @@
+.logo-list {
+  width: 50%;
+  overflow: hidden;
+  line-height: 0;
+}
+.logo-list img {
+  max-width: 100%;
+  height: auto;
+}
+.logo-list__logo-wrap {
+  width: 200%;
+  display: flex;
+  animation: 5s repeatedslide infinite linear;
+}
+.logo-list__logo-wrap:hover {
+  animation-play-state: paused;
+}
+@keyframes repeatedslide {
+  to {
+    margin-left: -100%;
+    margin-right: 100%;
+ }
+}
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}

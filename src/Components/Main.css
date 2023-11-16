@@ -1,0 +1,17 @@
+.main {
+  width: 1440px;
+  height: 1024px;
+  display: flex;
+}
+.leftside {
+  width: 52.75%;
+
+  background-clip: content-box;
+  background-size: 120% 100%;
+  /* background-image: url("../assests/bluela.png");
+  background-color: black; */
+  background: url("../assests/bluela.png"), black;
+}
+.rightside {
+  width: 47.25%;
+}
